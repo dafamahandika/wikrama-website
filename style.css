@@ -75,13 +75,14 @@ header p:hover {
 
 /* jurusan */
 .content3 {
-  margin: auto;
-  padding: 10px;
+  margin: 25px auto;
+  padding: 25px;
   display: grid;
   grid-template-rows: repeat(2, 10x);
   grid-template-columns: repeat(3, 300px);
   place-items: center;
   justify-content: space-around;
+  gap: 12px;
 }
 .card-rpl {
   background-color: #f7f8f9;
